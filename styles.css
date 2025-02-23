@@ -1,0 +1,88 @@
+/* Estilos generales de la pagina */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/*Contenedor Principal */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/*Estilos del titulo */
+h1 {
+    color: #333;
+
+}
+
+/* Input y boton para agregar tareas */
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#task {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+#addTask {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#addTask:hover {
+    background: #218838;
+
+}
+
+/* Lista de tareas */
+#taskList{
+    list-style: none;
+    padding: 0;
+}
+
+#tasklist li {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+
+}
+
+/* Boton para eliminar tareas */
+.delete {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    
+}
+
+.delete:hover {
+    background: darkred;
+}
